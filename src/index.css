@@ -1,11 +1,23 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
   font-family: monospace;
+  font-size: 16px;
+  background-color: whitesmoke;
 }
 
+a {
+  text-decoration: none;
+  color: indianred;
+}
 
 .Inner {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding: 0;
+  }
 }

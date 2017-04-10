@@ -1,18 +1,39 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link
+} from 'react-router-dom';
+
+import Home from './components/Home';
+import BookDetail from './components/BookDetail';
+
 import books from './books.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <div className="Inner">
-            <img src={books} className="App-logo" alt="logo" />
-            <h2>Egghead Bookshelf</h2>
+      <Router>
+        <div className="App">
+          <div className="App-header">
+            <div className="Inner">
+              <Link to="/" className="Logo">
+                <img src={books} alt="Logo" />
+                <h2>On My Shelf</h2>
+              </Link>
+            </div>
+          </div>
+
+          <div className="Container Inner">
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/book/:bookId' component={BookDetail} />
+            </Switch>
           </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
