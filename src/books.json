@@ -38,19 +38,31 @@
     "merchants": [
       {
         "name": "Amazon",
-        "price": "16.19",
+        "price": {
+          "en-US": "16.19",
+          "es-ES": "15.09",
+          "fr-FR": "15.09"
+        },
         "link": "https://www.amazon.com/Dark-Matter-Novel-Blake-Crouch/dp/1101904224",
         "icon": "https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
       },
       {
         "name": "Barnes & Noble",
-        "price": "16.19",
+        "price": {
+          "en-US": "16.19",
+          "es-ES": "15.09",
+          "fr-FR": "15.09"
+        },
         "link": "http://www.barnesandnoble.com/w/dark-matter-blake-crouch/1122954090",
         "icon": "http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
       },
       {
         "name": "Audible",
-        "price": "28.00",
+        "price": {
+          "en-US": "16.19",
+          "es-ES": "15.09",
+          "fr-FR": "26.10"
+        },
         "link": "http://www.audible.com/pd/Sci-Fi-Fantasy/Dark-Matter-Audiobook/B01CUKULGA",
         "icon": "http://logo.clearbit.com/audible.com"
       }
@@ -109,19 +121,31 @@
     "merchants": [
       {
         "name": "Amazon",
-        "price": "14.00",
+        "price": {
+          "en-US": "14.00",
+          "es-ES": "13.05",
+          "fr-FR": "13.05"
+        },
         "link": "https://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X",
         "icon": "https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
       },
       {
         "name": "Barnes & Noble",
-        "price": "14.88",
+        "price": {
+          "en-US": "14.88",
+          "es-ES": "13.87",
+          "fr-FR": "13.87"
+        },
         "link": "http://www.barnesandnoble.com/w/dark-matter-blake-crouch/1122954090",
         "icon": "http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
       },
       {
         "name": "Audible",
-        "price": "28.00",
+        "price": {
+          "en-US": "28.00",
+          "es-ES": "26.10",
+          "fr-FR": "26.10"
+        },
         "link": "http://www.audible.com/pd/Bios-Memoirs/When-Breath-Becomes-Air-Audiobook/B0191YTGI2",
         "icon": "http://logo.clearbit.com/audible.com"
       }
@@ -187,19 +211,31 @@
     "merchants": [
       {
         "name": "Amazon",
-        "price": "20.56",
+        "price": {
+          "en-US": "20.56",
+          "es-ES": "19.34",
+          "fr-FR": "19.34"
+        },
         "link": "https://www.amazon.com/11-22-63-Stephen-King/dp/1451627297",
         "icon": "https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
       },
       {
         "name": "Barnes & Noble",
-        "price": "22.43",
+        "price": {
+          "en-US": "22.43",
+          "es-ES": "21.09",
+          "fr-FR": "21.09"
+        },
         "link": "http://www.barnesandnoble.com/w/11-22-63-stephen-king/1030438404",
         "icon": "http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
       },
       {
         "name": "Audible",
-        "price": "31.84",
+        "price": {
+          "en-US": "31.84",
+          "es-ES": "29.94",
+          "fr-FR": "29.94"
+        },
         "link": "http://www.audible.com/pd/Mysteries-Thrillers/22-11-63-Audiobook/B00TKGLBR6",
         "icon": "http://logo.clearbit.com/audible.com"
       }
@@ -251,19 +287,31 @@
     "merchants": [
       {
         "name": "Amazon",
-        "price": "9.74",
+        "price": {
+          "en-US": "9.74",
+          "es-ES": "9.08",
+          "fr-FR": "9.08"
+        },
         "link": "https://www.amazon.com/Jayber-Crow-Wendell-Berry/dp/1582431604",
         "icon": "https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
       },
       {
         "name": "Barnes & Noble",
-        "price": "16.08",
+        "price": {
+          "en-US": "16.08",
+          "es-ES": "14.99",
+          "fr-FR": "14.99"
+        },
         "link": "http://www.barnesandnoble.com/w/jayber-crow-wendell-berry/1003954494",
         "icon": "http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
       },
       {
         "name": "Audible",
-        "price": "24.49",
+        "price": {
+          "en-US": "24.49",
+          "es-ES": "22.83",
+          "fr-FR": "22.83"
+        },
         "link": "http://www.audible.com/pd/Religion-Spirituality/Jayber-Crow-Audiobook/B002VA3O7S",
         "icon": "http://logo.clearbit.com/audible.com"
       }
@@ -350,19 +398,31 @@
     "merchants": [
       {
         "name": "Amazon",
-        "price": "23.95",
+        "price": {
+          "en-US": "23.95",
+          "es-ES": "22.33",
+          "fr-FR": "22.33"
+        },
         "link": "https://www.amazon.com/Out-Silent-Planet-C-Lewis/dp/1567230717",
         "icon": "https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
       },
       {
         "name": "Barnes & Noble",
-        "price": "17.48",
+        "price": {
+          "en-US": "17.48",
+          "es-ES": "16.29",
+          "fr-FR": "16.29"
+        },
         "link": "http://www.barnesandnoble.com/w/out-of-the-silent-planet-c-s-lewis/1100400761",
         "icon": "http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
       },
       {
         "name": "Audible",
-        "price": "17.47",
+        "price": {
+          "en-US": "17.47",
+          "es-ES": "16.29",
+          "fr-FR": "16.29"
+        },
         "link": "http://www.audible.com/pd/Sci-Fi-Fantasy/Out-of-the-Silent-Planet-Audiobook/B002VA9SHI",
         "icon": "http://logo.clearbit.com/audible.com"
       }
@@ -449,19 +509,31 @@
     "merchants": [
       {
         "name": "Amazon",
-        "price": "14.95",
+        "price": {
+          "en-US": "14.95",
+          "es-ES": "13.94",
+          "fr-FR": "13.94"
+        },
         "link": "https://www.amazon.com/Fahrenheit-451-Ray-Bradbury/dp/1451673310",
         "icon": "https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
       },
       {
         "name": "Barnes & Noble",
-        "price": "14.88",
+        "price": {
+          "en-US": "14.88",
+          "es-ES": "13.87",
+          "fr-FR": "13.87"
+        },
         "link": "http://www.barnesandnoble.com/w/fahrenheit-451-ray-bradbury/1100383286",
         "icon": "http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
       },
       {
         "name": "Audible",
-        "price": "19.95",
+        "price": {
+          "en-US": "19.95",
+          "es-ES": "18.60",
+          "fr-FR": "18.60"
+        },
         "link": "http://www.audible.com/pd/Classics/Fahrenheit-451-Audiobook/B00M4PXF6K",
         "icon": "http://logo.clearbit.com/audible.com"
       }
