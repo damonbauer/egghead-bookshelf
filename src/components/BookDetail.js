@@ -4,7 +4,8 @@ import {
     FormattedMessage,
     FormattedHTMLMessage,
     FormattedDate,
-    FormattedTime
+    FormattedTime,
+    FormattedRelative
 } from 'react-intl';
 
 import books from '../books.json';
@@ -69,7 +70,11 @@ const BookDetail = ({match}) => {
                   value={new Date(review.date)}
                   year='2-digit'
                   month='2-digit'
-                  day='2-digit' />
+                  day='2-digit' /><br />
+                <FormattedRelative
+                  value={new Date(review.date)}
+                  updateInterval={1000}
+                />
               </p>
             </div>
             <p>{review.body}</p>
