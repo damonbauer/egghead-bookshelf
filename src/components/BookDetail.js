@@ -1,6 +1,6 @@
 import React from 'react';
 import { meanBy, round, sortBy } from 'lodash';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 
 import books from '../books.json';
 
@@ -33,13 +33,14 @@ const BookDetail = ({match}) => {
       </h3>
       <div className="BookDetail-merchants">
         {book.merchants.map((merchant) => (
-          <a href={merchant.link} className="Merchant" key={merchant.name}>
+          <a href={merchant.link} className="Merchant" target="_blank" key={merchant.name}>
             <img src={merchant.icon} width="32" height="32" alt={merchant.name}/>
             <strong>{merchant.name}</strong>
             <p>{merchant.price}</p>
           </a>
         ))}
       </div>
+      <FormattedHTMLMessage id="detail.window" values={{numMerchants: book.merchants.length}} />
 
       <h2>
         <FormattedMessage id="detail.reviewsHeading"/>
