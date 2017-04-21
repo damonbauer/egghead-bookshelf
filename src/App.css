@@ -133,6 +133,13 @@
       line-height: 1.6;
     }
 
+    textarea {
+      width: 100%;
+      height: 10vh;
+      padding: 1rem;
+      font-size: 1rem;
+    }
+
 @media screen and (min-width: 800px) {
   .Review {
     flex: 0 1 45%;
@@ -148,5 +155,9 @@
     .Review:nth-child(even) {
       margin-left: auto;
       padding-right: 0;
+    }
+
+    textarea {
+      width: 45%;
     }
 }
