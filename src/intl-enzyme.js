@@ -10,15 +10,13 @@ import { IntlProvider, intlShape } from 'react-intl';
 import { mount, shallow } from 'enzyme';
 import { flattenMessages } from './utils';
 
-// You can pass your messages to the IntlProvider. Optional: remove if unneeded.
-
 import messages from './messages';
 
 // Create the IntlProvider to retrieve context for wrapping around.
 const intlProvider = new IntlProvider({
-    locale: 'en-US',
-    messages: flattenMessages(messages['en-US'])
+    locale: 'en-US', messages: flattenMessages(messages['en-US'])
 }, {});
+
 const { intl } = intlProvider.getChildContext();
 
 /**
@@ -28,21 +26,15 @@ function nodeWithIntlProp(node) {
     return React.cloneElement(node, { intl });
 }
 
-export function shallowWithIntl(node, { context } = {}) {
-    return shallow(
-        nodeWithIntlProp(node),
-        {
-            context: Object.assign({}, context, {intl}),
-        }
-    );
+export function shallowWithIntl(node) {
+    return shallow(nodeWithIntlProp(node), {
+        context: { intl }
+    });
 }
 
-export function mountWithIntl(node, { context, childContextTypes } = {}) {
-    return mount(
-        nodeWithIntlProp(node),
-        {
-            context: Object.assign({}, context, {intl}),
-            childContextTypes: Object.assign({}, { intl: intlShape }, childContextTypes)
-        }
-    );
+export function mountWithIntl(node) {
+    return mount(nodeWithIntlProp(node), {
+        context: { intl },
+        childContextTypes: { intl: intlShape }
+    });
 }
