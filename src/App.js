@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, {Component} from "react";
 import {
   BrowserRouter as Router,
+  Link,
   Route,
-  Switch,
-  Link
-} from 'react-router-dom';
+  Switch
+} from "react-router-dom";
 
-import Home from './components/Home';
-import BookDetail from './components/BookDetail';
+import Home from "./components/Home";
+import BookDetail from "./components/BookDetail";
 
-import books from './books.svg';
-import './App.css';
+import books from "./books.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
           <div className="App-header">
             <div className="Inner">
               <Link to="/" className="Logo">
-                <img src={books} alt="Logo" />
+                <img src={books} alt="Logo"/>
                 <h2>On My Shelf</h2>
               </Link>
             </div>
@@ -28,8 +28,8 @@ class App extends Component {
 
           <div className="Container Inner">
             <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/book/:bookId' component={BookDetail} />
+              <Route exact path='/' component={Home}/>
+              <Route path='/book/:bookId' component={BookDetail}/>
             </Switch>
           </div>
         </div>
