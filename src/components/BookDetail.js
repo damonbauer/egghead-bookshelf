@@ -14,7 +14,7 @@ import books from '../books.json';
 const BookDetail = ({match}) => {
   const book = books.find(book => book.id === parseInt(match.params.bookId, 10));
   const sortedReviews = sortBy(book.reviews, 'date').reverse();
-  const avgRating = round(meanBy(book.reviews, (r) => r.rating), 2);
+  const avgRating = book.reviews.length ? round(meanBy(book.reviews, (r) => r.rating), 2) : 0;
   const locale = (navigator.languages && navigator.languages[0])
     || navigator.language
     || navigator.userLanguage
@@ -63,7 +63,7 @@ const BookDetail = ({match}) => {
         <FormattedMessage id="detail.reviewsHeading"/>
       </h2>
       <h3>
-        <FormattedMessage id="detail.averageRating" values={{ avg: avgRating }} /> ({book.reviews.length} Reviews)
+        <FormattedMessage id="detail.averageRating" values={{ avg: avgRating , count:book.reviews.length} } />
       </h3>
       <div className="BookDetail-reviews">
         {sortedReviews.map((review) => (
