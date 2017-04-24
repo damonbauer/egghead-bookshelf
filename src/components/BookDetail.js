@@ -5,7 +5,8 @@ import {
     FormattedHTMLMessage,
     FormattedDate,
     FormattedTime,
-    FormattedRelative
+    FormattedRelative,
+    FormattedNumber
 } from 'react-intl';
 
 import books from '../books.json';
@@ -14,6 +15,10 @@ const BookDetail = ({match}) => {
   const book = books.find(book => book.id === parseInt(match.params.bookId, 10));
   const sortedReviews = sortBy(book.reviews, 'date').reverse();
   const avgRating = round(meanBy(book.reviews, (r) => r.rating), 2);
+  const locale = (navigator.languages && navigator.languages[0])
+    || navigator.language
+    || navigator.userLanguage
+    || 'en-US';
 
   return (
     <div className="BookDetail">
@@ -42,7 +47,13 @@ const BookDetail = ({match}) => {
           <a href={merchant.link} className="Merchant" target="_blank" key={merchant.name}>
             <img src={merchant.icon} width="32" height="32" alt={merchant.name}/>
             <strong>{merchant.name}</strong>
-            <p>{merchant.price}</p>
+            <p>
+              <FormattedNumber
+                  value={merchant.price[locale]}
+                  style="currency"
+                  currency={locale === 'en-US' ? 'USD' : 'EUR'}
+                  currencyDisplay="symbol" />
+            </p>
           </a>
         ))}
       </div>
