@@ -1,6 +1,11 @@
 import React from 'react';
 import { meanBy, round, sortBy } from 'lodash';
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
+import {
+    FormattedMessage,
+    FormattedHTMLMessage,
+    FormattedDate,
+    FormattedTime
+} from 'react-intl';
 
 import books from '../books.json';
 
@@ -16,7 +21,7 @@ const BookDetail = ({match}) => {
         <div className="BookDetail-metaBody">
           <h1>{book.title}</h1>
           <h3>
-              <FormattedMessage id="detail.author" values={{author: book.author}} />
+            <FormattedMessage id="detail.author" values={{author: book.author}} />
           </h3>
           <div>
             <input type="checkbox" id="toggle" hidden/>
@@ -46,7 +51,7 @@ const BookDetail = ({match}) => {
         <FormattedMessage id="detail.reviewsHeading"/>
       </h2>
       <h3>
-          <FormattedMessage id="detail.averageRating" values={{ avg: avgRating }} /> ({book.reviews.length} Reviews)
+        <FormattedMessage id="detail.averageRating" values={{ avg: avgRating }} /> ({book.reviews.length} Reviews)
       </h3>
       <div className="BookDetail-reviews">
         {sortedReviews.map((review) => (
@@ -55,7 +60,16 @@ const BookDetail = ({match}) => {
               <img src={review.avatar} alt="Avatar"/>
               <p>
                 <FormattedMessage id="detail.userRating" values={{ name: <strong>{review.name}</strong>, rating: review.rating }} /><br />
-                {new Date(review.date).toLocaleDateString()}
+                  {/*<FormattedDate
+                  value={new Date(review.date)}
+                  year='2-digit'
+                  month='2-digit'
+                  day='2-digit' />*/}
+                <FormattedTime
+                  value={new Date(review.date)}
+                  year='2-digit'
+                  month='2-digit'
+                  day='2-digit' />
               </p>
             </div>
             <p>{review.body}</p>
