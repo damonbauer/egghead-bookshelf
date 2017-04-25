@@ -8,6 +8,7 @@
   "dependencies": {
     "enzyme": "^2.8.2",
     "enzyme-to-json": "^1.5.1",
+    "intl": "^1.2.5",
     "lodash": "^4.17.4",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.5.1",
