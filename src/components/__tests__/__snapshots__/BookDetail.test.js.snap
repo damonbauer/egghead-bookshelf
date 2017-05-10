@@ -1,4 +1,4 @@
-exports[`BookDetail renders 1`] = `
+exports[`BookDetail renders expected markup 1`] = `
 <InjectIntl(BookDetail)
   intl={
     Object {
@@ -117,17 +117,17 @@ exports[`BookDetail renders 1`] = `
               type="checkbox" />
             <p>
               “Are you happy with your life?”
-
+              
               Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious.
-
+              
               Before he awakens to find himself strapped to a gurney, surrounded by strangers in hazmat suits.
-
+              
               Before a man Jason’s never met smiles down at him and says, “Welcome back, my friend.”
-
+              
               In this world he’s woken up to, Jason’s life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.
-
+              
               Is it this world or the other that’s the dream? And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could’ve imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.
-
+              
               From the author of the bestselling Wayward Pines trilogy, Dark Matter is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human—a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we’ll go to claim the lives we dream of.
             </p>
             <label
@@ -308,7 +308,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-04-20T06:16:36.053Z}>
                 <span>
-                  3 days ago
+                  20 days ago
                 </span>
               </FormattedRelative>
             </p>
@@ -357,7 +357,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-04-09T13:03:40.373Z}>
                 <span>
-                  14 days ago
+                  last month
                 </span>
               </FormattedRelative>
             </p>
@@ -406,7 +406,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-04-02T05:41:27.199Z}>
                 <span>
-                  21 days ago
+                  last month
                 </span>
               </FormattedRelative>
             </p>
@@ -455,7 +455,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-03-16T22:20:32.337Z}>
                 <span>
-                  last month
+                  2 months ago
                 </span>
               </FormattedRelative>
             </p>

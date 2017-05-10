@@ -4,14 +4,13 @@ import toJson from "enzyme-to-json";
 
 import BookDetail from "../BookDetail";
 
+Date.now = jest.fn(() => 1491111687199);
+
 let wrapper = null;
 
 describe('BookDetail', () => {
-  beforeEach(() => {
+  it('renders expected markup', () => {
     wrapper = mountWithIntl(<BookDetail match={{params: {bookId: 1}}}/>);
-  });
-
-  it('renders', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
