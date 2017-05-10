@@ -1,4 +1,4 @@
-exports[`BookDetail renders 1`] = `
+exports[`BookDetail renders expected markup 1`] = `
 <InjectIntl(BookDetail)
   intl={
     Object {
@@ -308,7 +308,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-04-20T06:16:36.053Z}>
                 <span>
-                  3 days ago
+                  20 days ago
                 </span>
               </FormattedRelative>
             </p>
@@ -357,7 +357,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-04-09T13:03:40.373Z}>
                 <span>
-                  14 days ago
+                  last month
                 </span>
               </FormattedRelative>
             </p>
@@ -406,7 +406,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-04-02T05:41:27.199Z}>
                 <span>
-                  21 days ago
+                  last month
                 </span>
               </FormattedRelative>
             </p>
@@ -455,7 +455,7 @@ exports[`BookDetail renders 1`] = `
                 updateInterval={1000}
                 value={2017-03-16T22:20:32.337Z}>
                 <span>
-                  last month
+                  2 months ago
                 </span>
               </FormattedRelative>
             </p>
