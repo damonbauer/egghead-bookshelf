@@ -10,11 +10,9 @@
     "enzyme-to-json": "^1.5.1",
     "lodash": "^4.17.4",
     "react": "^15.4.2",
-    "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
     "react-intl": "^2.2.3",
-    "react-router-dom": "next",
-    "react-test-renderer": "^15.5.4"
+    "react-router-dom": "next"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
