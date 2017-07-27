@@ -26,13 +26,13 @@ export default {
   'fr-FR': {
     detail: {
       author: 'par {author}',
-      toggle:'Basculer',
+      toggle: 'Basculer',
       purchase: 'Achetez ce livre à partir de:',
-      window: '<small><em>Les {numMerchants} liens s\'ouvrent dans une nouvelle fenêtre.</em></small>',
-      reviewsHeading: 'Avis',
-      averageRating: 'Note moyenne: {avg} ({count, plural, =0 {Pas encore de commentaires!} one {# La revue} other {# Avis}})',
-      userRating: '{name} L\'a noté: {rating} sur 5',
-      inputPlaceholder: 'Qu\'as-tu pensé? Entrez votre avis ici.'
+      window: '<small><em>Chacun des {numMerchants} liens sera ouvert dans une fenêtre à part.</em></small>',
+      reviewsHeading: 'Évaluation',
+      averageRating: 'Note moyenne: {avg} ({count, plural, =0 {Aucune évaluation} one {# évaluation} other {# évaluation}})',
+      userRating: '{name} a noté: {rating} sur 5',
+      inputPlaceholder: 'Quoi pensez vous? Écrivez votre évaluation ici.'
     }
   }
 }
