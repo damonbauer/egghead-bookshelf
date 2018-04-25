@@ -1,0 +1,3 @@
+[submodule "01-install-and-configure-react-intl"]
+	path = 01-install-and-configure-react-intl
+	url = https://github.com/damonbauer/egghead-bookshelf.git
