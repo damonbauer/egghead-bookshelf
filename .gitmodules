@@ -1,3 +1,33 @@
 [submodule "01-install-and-configure-react-intl"]
 	path = 01-install-and-configure-react-intl
 	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "02-formatted-message"]
+	path = 02-formatted-message
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "03-formatted-message-placeholders"]
+	path = 03-formatted-message-placeholders
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "04-formatted-htmlmessage"]
+	path = 04-formatted-htmlmessage
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "05-formatted-date-formatted-time"]
+	path = 05-formatted-date-formatted-time
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "06-formattedrelative"]
+	path = 06-formattedrelative
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "07-formattednumber"]
+	path = 07-formattednumber
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "08-formattedmessage-complex"]
+	path = 08-formattedmessage-complex
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "09-hoc"]
+	path = 09-hoc
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "10-testing"]
+	path = 10-testing
+	url = https://github.com/damonbauer/egghead-bookshelf.git
+[submodule "11-intl-polyfill"]
+	path = 11-intl-polyfill
+	url = https://github.com/damonbauer/egghead-bookshelf.git
