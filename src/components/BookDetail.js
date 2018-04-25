@@ -3,7 +3,6 @@ import { meanBy, round, sortBy } from 'lodash';
 import {
     FormattedMessage,
     FormattedHTMLMessage,
-    FormattedDate,
     FormattedTime,
     FormattedRelative,
     FormattedNumber,
