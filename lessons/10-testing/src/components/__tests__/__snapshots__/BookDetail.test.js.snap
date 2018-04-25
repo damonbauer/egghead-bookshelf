@@ -1,0 +1,473 @@
+exports[`BookDetail renders expected markup 1`] = `
+<InjectIntl(BookDetail)
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en-US",
+      "messages": Object {
+        "detail.author": "by {author}",
+        "detail.averageRating": "Average Rating: {avg} ({count, plural, =0 {No Reviews Yet!} one {# Review} other {# Reviews}})",
+        "detail.inputPlaceholder": "What did you think? Enter your review here.",
+        "detail.purchase": "Purchase this book from:",
+        "detail.reviewsHeading": "Reviews",
+        "detail.toggle": "Toggle",
+        "detail.userRating": "{name} rated it: {rating} out of 5",
+        "detail.window": "<small><em>All {numMerchants} links open in a new window.</em></small>",
+      },
+      "now": [Function],
+      "textComponent": "span",
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "bookId": 1,
+      },
+    }
+  }>
+  <BookDetail
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en-US",
+        "messages": Object {
+          "detail.author": "by {author}",
+          "detail.averageRating": "Average Rating: {avg} ({count, plural, =0 {No Reviews Yet!} one {# Review} other {# Reviews}})",
+          "detail.inputPlaceholder": "What did you think? Enter your review here.",
+          "detail.purchase": "Purchase this book from:",
+          "detail.reviewsHeading": "Reviews",
+          "detail.toggle": "Toggle",
+          "detail.userRating": "{name} rated it: {rating} out of 5",
+          "detail.window": "<small><em>All {numMerchants} links open in a new window.</em></small>",
+        },
+        "now": [Function],
+        "textComponent": "span",
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "bookId": 1,
+        },
+      }
+    }>
+    <div
+      className="BookDetail">
+      <div
+        className="BookDetail-meta">
+        <img
+          alt="Dark Matter"
+          height="275"
+          src="https://images.gr-assets.com/books/1472119680l/27833670.jpg"
+          width="200" />
+        <div
+          className="BookDetail-metaBody">
+          <h1>
+            Dark Matter
+          </h1>
+          <h3>
+            <FormattedMessage
+              id="detail.author"
+              values={
+                Object {
+                  "author": "Blake Crouch",
+                }
+              }>
+              <span>
+                by Blake Crouch
+              </span>
+            </FormattedMessage>
+          </h3>
+          <div>
+            <input
+              hidden={true}
+              id="toggle"
+              type="checkbox" />
+            <p>
+              “Are you happy with your life?”
+              
+              Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious.
+              
+              Before he awakens to find himself strapped to a gurney, surrounded by strangers in hazmat suits.
+              
+              Before a man Jason’s never met smiles down at him and says, “Welcome back, my friend.”
+              
+              In this world he’s woken up to, Jason’s life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.
+              
+              Is it this world or the other that’s the dream? And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could’ve imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.
+              
+              From the author of the bestselling Wayward Pines trilogy, Dark Matter is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human—a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we’ll go to claim the lives we dream of.
+            </p>
+            <label
+              className="BookDetail-descriptionToggle"
+              htmlFor="toggle">
+              <FormattedMessage
+                id="detail.toggle"
+                values={Object {}}>
+                <span>
+                  Toggle
+                </span>
+              </FormattedMessage>
+            </label>
+          </div>
+        </div>
+      </div>
+      <h3
+        className="BookDetail-merchantHeading">
+        <FormattedMessage
+          id="detail.purchase"
+          values={Object {}}>
+          <span>
+            Purchase this book from:
+          </span>
+        </FormattedMessage>
+      </h3>
+      <div
+        className="BookDetail-merchants">
+        <a
+          className="Merchant"
+          href="https://www.amazon.com/Dark-Matter-Novel-Blake-Crouch/dp/1101904224"
+          target="_blank">
+          <img
+            alt="Amazon"
+            height="32"
+            src="https://s-media-cache-ak0.pinimg.com/564x/cc/77/ef/cc77efac50fd7637763ba7115bc4f17a.jpg"
+            width="32" />
+          <strong>
+            Amazon
+          </strong>
+          <p>
+            <FormattedNumber
+              currency="USD"
+              currencyDisplay="symbol"
+              style="currency"
+              value="16.19">
+              <span>
+                $16.19
+              </span>
+            </FormattedNumber>
+          </p>
+        </a>
+        <a
+          className="Merchant"
+          href="http://www.barnesandnoble.com/w/dark-matter-blake-crouch/1122954090"
+          target="_blank">
+          <img
+            alt="Barnes & Noble"
+            height="32"
+            src="http://www.barnesandnobleinc.com/wp-content/themes/bninc/assets/images/favicon.ico"
+            width="32" />
+          <strong>
+            Barnes & Noble
+          </strong>
+          <p>
+            <FormattedNumber
+              currency="USD"
+              currencyDisplay="symbol"
+              style="currency"
+              value="16.19">
+              <span>
+                $16.19
+              </span>
+            </FormattedNumber>
+          </p>
+        </a>
+        <a
+          className="Merchant"
+          href="http://www.audible.com/pd/Sci-Fi-Fantasy/Dark-Matter-Audiobook/B01CUKULGA"
+          target="_blank">
+          <img
+            alt="Audible"
+            height="32"
+            src="http://logo.clearbit.com/audible.com"
+            width="32" />
+          <strong>
+            Audible
+          </strong>
+          <p>
+            <FormattedNumber
+              currency="USD"
+              currencyDisplay="symbol"
+              style="currency"
+              value="16.19">
+              <span>
+                $16.19
+              </span>
+            </FormattedNumber>
+          </p>
+        </a>
+      </div>
+      <FormattedHTMLMessage
+        id="detail.window"
+        values={
+          Object {
+            "numMerchants": 3,
+          }
+        }>
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<small><em>All 3 links open in a new window.</em></small>",
+            }
+          } />
+      </FormattedHTMLMessage>
+      <h2>
+        <FormattedMessage
+          id="detail.reviewsHeading"
+          values={Object {}}>
+          <span>
+            Reviews
+          </span>
+        </FormattedMessage>
+      </h2>
+      <h3>
+        <FormattedMessage
+          id="detail.averageRating"
+          values={
+            Object {
+              "avg": 3.25,
+              "count": 4,
+            }
+          }>
+          <span>
+            Average Rating: 3.25 (4 Reviews)
+          </span>
+        </FormattedMessage>
+      </h3>
+      <div
+        className="BookDetail-reviews">
+        <div
+          className="Review">
+          <div
+            className="Review-meta">
+            <img
+              alt="Avatar"
+              src="http://i.pravatar.cc/64?img=2" />
+            <p>
+              <FormattedMessage
+                id="detail.userRating"
+                values={
+                  Object {
+                    "name": <strong>
+                      Kirby Evans
+                  </strong>,
+                    "rating": 1,
+                  }
+                }>
+                <span>
+                  <strong>
+                    Kirby Evans
+                  </strong>
+                   rated it: 1 out of 5
+                </span>
+              </FormattedMessage>
+              <br />
+              <FormattedTime
+                day="2-digit"
+                month="2-digit"
+                value={2017-04-20T06:16:36.053Z}
+                year="2-digit">
+                <span>
+                  04/20/17, 1:16 AM
+                </span>
+              </FormattedTime>
+              <br />
+              <FormattedRelative
+                updateInterval={1000}
+                value={2017-04-20T06:16:36.053Z}>
+                <span>
+                  20 days ago
+                </span>
+              </FormattedRelative>
+            </p>
+          </div>
+          <p>
+            Ut irure excepteur in culpa. Elit amet enim qui laboris do labore duis tempor exercitation quis voluptate officia enim proident. Et ex eu magna elit et culpa quis duis esse fugiat. Aliqua esse reprehenderit non adipisicing deserunt nostrud commodo tempor. Incididunt labore id anim aliqua sit qui. Ex ad est officia ea esse et. Consectetur tempor nostrud et ea culpa.
+          </p>
+        </div>
+        <div
+          className="Review">
+          <div
+            className="Review-meta">
+            <img
+              alt="Avatar"
+              src="http://i.pravatar.cc/64?img=3" />
+            <p>
+              <FormattedMessage
+                id="detail.userRating"
+                values={
+                  Object {
+                    "name": <strong>
+                      Alicia Warner
+                  </strong>,
+                    "rating": 4,
+                  }
+                }>
+                <span>
+                  <strong>
+                    Alicia Warner
+                  </strong>
+                   rated it: 4 out of 5
+                </span>
+              </FormattedMessage>
+              <br />
+              <FormattedTime
+                day="2-digit"
+                month="2-digit"
+                value={2017-04-09T13:03:40.373Z}
+                year="2-digit">
+                <span>
+                  04/09/17, 8:03 AM
+                </span>
+              </FormattedTime>
+              <br />
+              <FormattedRelative
+                updateInterval={1000}
+                value={2017-04-09T13:03:40.373Z}>
+                <span>
+                  last month
+                </span>
+              </FormattedRelative>
+            </p>
+          </div>
+          <p>
+            Dolor fugiat mollit do occaecat mollit aute incididunt esse cillum dolore commodo qui do minim. Aliqua proident aliqua ullamco sunt fugiat duis et exercitation deserunt non exercitation cupidatat id minim. Exercitation voluptate elit consectetur consectetur qui exercitation reprehenderit ut. Commodo laborum eiusmod sit nostrud sunt ea dolor est consequat enim est occaecat officia qui. Dolore nisi nulla laborum consectetur.
+          </p>
+        </div>
+        <div
+          className="Review">
+          <div
+            className="Review-meta">
+            <img
+              alt="Avatar"
+              src="http://i.pravatar.cc/64?img=1" />
+            <p>
+              <FormattedMessage
+                id="detail.userRating"
+                values={
+                  Object {
+                    "name": <strong>
+                      Gretchen Cannon
+                  </strong>,
+                    "rating": 5,
+                  }
+                }>
+                <span>
+                  <strong>
+                    Gretchen Cannon
+                  </strong>
+                   rated it: 5 out of 5
+                </span>
+              </FormattedMessage>
+              <br />
+              <FormattedTime
+                day="2-digit"
+                month="2-digit"
+                value={2017-04-02T05:41:27.199Z}
+                year="2-digit">
+                <span>
+                  04/02/17, 12:41 AM
+                </span>
+              </FormattedTime>
+              <br />
+              <FormattedRelative
+                updateInterval={1000}
+                value={2017-04-02T05:41:27.199Z}>
+                <span>
+                  last month
+                </span>
+              </FormattedRelative>
+            </p>
+          </div>
+          <p>
+            Occaecat ut ut mollit occaecat id fugiat velit est culpa. Nostrud incididunt commodo adipisicing duis cupidatat officia nisi cupidatat sit deserunt consectetur ex veniam. Pariatur qui in sit ut.
+          </p>
+        </div>
+        <div
+          className="Review">
+          <div
+            className="Review-meta">
+            <img
+              alt="Avatar"
+              src="http://i.pravatar.cc/64?img=4" />
+            <p>
+              <FormattedMessage
+                id="detail.userRating"
+                values={
+                  Object {
+                    "name": <strong>
+                      Pope Robbins
+                  </strong>,
+                    "rating": 3,
+                  }
+                }>
+                <span>
+                  <strong>
+                    Pope Robbins
+                  </strong>
+                   rated it: 3 out of 5
+                </span>
+              </FormattedMessage>
+              <br />
+              <FormattedTime
+                day="2-digit"
+                month="2-digit"
+                value={2017-03-16T22:20:32.337Z}
+                year="2-digit">
+                <span>
+                  03/16/17, 5:20 PM
+                </span>
+              </FormattedTime>
+              <br />
+              <FormattedRelative
+                updateInterval={1000}
+                value={2017-03-16T22:20:32.337Z}>
+                <span>
+                  2 months ago
+                </span>
+              </FormattedRelative>
+            </p>
+          </div>
+          <p>
+            Esse consectetur exercitation sit qui minim commodo veniam tempor cupidatat qui fugiat occaecat sit. Magna fugiat non mollit commodo sit enim culpa. Pariatur reprehenderit est enim incididunt pariatur ullamco anim cupidatat labore. Duis magna id fugiat nulla exercitation ipsum.
+          </p>
+        </div>
+      </div>
+      <textarea
+        placeholder="What did you think? Enter your review here." />
+    </div>
+  </BookDetail>
+</InjectIntl(BookDetail)>
+`;
