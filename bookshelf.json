@@ -1,0 +1,22 @@
+{
+    "slug": "add-internationalization-i18n-to-a-react-app-using-react-intl",
+    "dependencies": {
+        "enzyme": "3.9.0",
+        "enzyme-to-json": "3.3.5",
+        "intl": "1.2.5",
+        "lodash": "4.17.11",
+        "react": "16.8.4",
+        "react-addons-test-utils": "15.6.2",
+        "react-dom": "16.8.4",
+        "react-intl": "2.8.0",
+        "react-router-dom": "4.3.1"
+      },
+    "reviews": [
+        {
+          "performedOn": "2019-03-07",
+          "performedBy": "Sam Grinis",
+          "scopeOfReview": "full course lesson review",
+          "notes": [null]
+        }
+      ]
+}
