@@ -1,0 +1,28 @@
+{
+  "name": "egghead-bookshelf",
+  "author": "Damon Bauer <hello@damonbauer.me>",
+  "bugs": "https://github.com/damonbauer/egghead-bookshelf/issues",
+  "repository": "https://github.com/damonbauer/egghead-bookshelf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "^2.8.2",
+    "enzyme-to-json": "^1.5.1",
+    "intl": "^1.2.5",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-intl": "^2.2.3",
+    "react-router-dom": "next"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
