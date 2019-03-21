@@ -1,7 +1,21 @@
 {
   "slug": "add-internationalization-i18n-to-a-react-app-using-react-intl",
   "private": true,
+  "scripts": {
+    "start": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" start; }; aux",
+    "build": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" build; }; aux",
+    "test": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" test; }; aux",
+    "eject": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" eject; }; aux",
+    "workspace:log": "aux() { echo \"Running $2 in $1.\" && yarn workspace \"$@\"; }; aux",
+    "clean": "rm -rf packages/*/{dist,.cache}",
+    "clean:node_modules": "find . -name node_modules | xargs rm -rf",
+    "format": "prettier **/*.{js,json,vue} -l --write --ignore-path .gitignore || :",
+    "latest": "yarn upgrade-interactive --latest && yarn upgrade -L"
+  },
   "workspaces": [
     "lessons/*"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
 }
