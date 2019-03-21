@@ -1,0 +1,7 @@
+{
+  "slug": "add-internationalization-i18n-to-a-react-app-using-react-intl",
+  "private": true,
+  "workspaces": [
+    "lessons/*"
+  ]
+}
