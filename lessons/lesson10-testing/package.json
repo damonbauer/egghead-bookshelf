@@ -1,0 +1,29 @@
+{
+  "name": "lesson10-testing",
+  "author": "Damon Bauer <hello@damonbauer.me>",
+  "bugs": "https://github.com/damonbauer/egghead-bookshelf/issues",
+  "repository": "https://github.com/damonbauer/egghead-bookshelf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "3.9.0",
+    "enzyme-to-json": "3.3.5",
+    "lodash": "4.17.11",
+    "react": "16.8.4",
+    "react-addons-test-utils": "15.6.2",
+    "react-dom": "16.8.4",
+    "react-intl": "2.8.0",
+    "react-router-dom": "4.3.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "description": ""
+}

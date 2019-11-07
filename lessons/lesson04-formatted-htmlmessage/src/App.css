@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.App-header .Inner {
+  display: flex;
+  border-bottom: 1px solid;
+}
+
+  .App-header .Logo {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+  }
+
+  .App-header img {
+    height: 40px;
+  }
+
+  .App-header h2 {
+    padding-left: 2rem;
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+
+
+.FeaturedBooks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FeaturedBook {
+  flex: 33%;
+  margin-top: 3rem;
+  text-align: center;
+}
+  .FeaturedBook:hover {
+    color: darkslategray;
+  }
+
+  .FeaturedBook h3 {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+  }
+
+  .FeaturedBook h4 {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+.BookDetail-meta {
+  display: flex;
+  margin-top: 2rem;
+}
+
+  .BookDetail-meta img {
+    flex: 0 0 200px;
+  }
+
+  .BookDetail-metaBody {
+    margin-left: 2rem;
+  }
+
+  .BookDetail-meta h1 {
+    margin-top: 0;
+  }
+
+  .BookDetail-meta p {
+    white-space: pre-wrap;
+    max-height: 130px;
+    overflow-y: hidden;
+  }
+
+  .BookDetail-meta input:checked ~ p {
+    max-height: none;
+  }
+
+  .BookDetail-descriptionToggle {
+    all: unset;
+    cursor: pointer;
+    color: indianred;
+  }
+
+.BookDetail-merchantHeading {
+  margin: 3rem 0 0;
+}
+
+.BookDetail-merchants {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+  .Merchant {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+    .Merchant img {
+      display: block;
+      margin: 0 auto 1rem;
+      border-radius: 50%;
+    }
+
+.BookDetail-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+  .Review {
+    padding: 0 1rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+    .Review:not(:last-child) {
+      border-bottom: 1px solid #cfcfcf;
+    }
+
+  .Review-meta {
+    display: flex;
+    align-items: center;
+  }
+    .Review-meta img {
+      flex: 0 0 64px;
+      margin-right: 1rem;
+      border-radius: 50%;
+    }
+
+    .Review-meta p {
+      line-height: 1.6;
+    }
+
+@media screen and (min-width: 800px) {
+  .Review {
+    flex: 0 1 45%;
+    padding: 0 1rem 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 0 !important;
+  }
+
+    .Review:nth-child(odd) {
+      padding-left: 0;
+    }
+
+    .Review:nth-child(even) {
+      margin-left: auto;
+      padding-right: 0;
+    }
+}
